@@ -1,0 +1,31 @@
+# Environment & Secrets
+.env
+*.env
+*.key
+*.pem
+
+# Dependencies
+node_modules/
+.dart_tool/
+.packages
+
+# Flutter / Dart build artifacts
+frontend/build/
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/android/.gradle
+frontend/android/local.properties
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE & OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
